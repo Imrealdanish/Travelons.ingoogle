@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAVELONS.IN - Premium Group Travel Agency | "Travel With Us"</title>
+    <meta name="description" content="Travelons.in curates elite group-travel departures and high-altitude Himalayan trekking packages. No hidden costs. Fixed-price professional itineraries." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                blue: '#004A80',
+                lime: '#A3E635',
+                grey: '#F8FAFC',
+                dark: '#0F172A',
+              }
+            },
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 85px; /* Offset for fixed glass-header */
+      }
+    </style>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body class="bg-[#F8FAFC] text-[#0F172A] min-h-screen antialiased selection:bg-[#A3E635]/30 Selection:text-[#004A80]">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

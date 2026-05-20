@@ -1,0 +1,8 @@
+{
+  "name": "Travelons.in",
+  "description": "A premium travel agency landing page for curated group yatra departures and Himalayan trekking packages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
