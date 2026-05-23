@@ -253,12 +253,115 @@ export const TOUR_PACKAGES: TourPackage[] = [
     safetyLogistics: 'Highly skilled hill drivers strictly mapped to 12-seater high-clearance Force Travellers. Weather safeguards, oxygen cylinders, first-aid support, and backup vehicles are kept active.'
   },
   {
+    id: 'p16',
+    name: 'Hampta Pass with Chandratal',
+    duration: '4 Nights / 5 Days',
+    badge: 'Beginner Friendly Trek',
+    priceText: 'Starting from ₹6,499/- PP',
+    basePrice: 6499,
+    difficulty: 'Moderate to Challenging',
+    detailedPrices: {
+      quad: '₹6,499/- PP'
+    },
+    imageUrl: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80',
+    category: 'himachal',
+    tagline: 'Lush green Kullu meadows transitioning to majestic barren semi-desert Lahaul and the crescent moon lake.',
+    description: 'Experience one of the most classic and visually stunning pass crossings in the Indian Himalayas. Ascend through maple and pine meadows of Chika, trek key alpine ridges, step on the high Hampta Pass (14,100 ft) into Shea Goru, and drive to the heavenly turquoise waters of high-altitude Chandratal Lake. Full localized pickup and drop coordinates based entirely in Manali.',
+    tokenAmount: 3000,
+    itinerary: [
+      {
+        day: 1,
+        title: 'Manali Campsite → Chika',
+        desc: 'Begin with a scenic drive from Manali to Jobra after breakfast (self). Start the 2-3 hour trek to Chika. Walk through a short forest section and cross two wooden bridges. Reach Chika campsite located beside the river. Enjoy views of waterfalls and giant rock boulders.'
+      },
+      {
+        day: 2,
+        title: 'Chika → Balu Ka Ghera',
+        desc: 'Morning start for the trek toward Balu Ka Ghera. Walk along the right bank of Hamta River, climbing rock boulders. Cross a water stream and trek for 3 hours to the campsite. Witness the first views of the Dhauladhar snow-capped peaks. Relax in the serene meadows and valleys in the evening.'
+      },
+      {
+        day: 3,
+        title: 'Balu Ka Ghera → Hampta Pass → Shea Goru',
+        desc: 'Begin early to experience rapidly changing Himalayan landscapes. Gradual ascent suitable for beginners, with chances to meet shepherds. Reach the stunning Hampta Pass and cross into Lahaul Valley. Descend a steep trail towards Sheagoru last stretch is mostly flat. Overnight stay at Sheagoru, known as the coldest yet most scenic campsite.'
+      },
+      {
+        day: 4,
+        title: 'Shea Goru → Chhatru → Chandratal → Chhatru',
+        desc: 'Start a 3-hour trek from Sheagoru to Chatru, descending via Hampta Valley. See the majestic Pir Panjal mountain range en route. Arrive at Chatru for rest and lunch with panoramic views. Drive to Chandratal Lake (14,000ft) and spend time at the lake. Return to Chatru for dinner and overnight stay.'
+      },
+      {
+        day: 5,
+        title: 'Chhatru → Manali Basecamp by Jeep',
+        desc: 'Drive back to Manali via the Atal Tunnel after breakfast. Reach Manali around 1-3PM and check in at the hotel. Relax and explore Mall Road in the evening. Final day of the Hampta Pass trek - say goodbye to the mountains. Board your vehicle and head back home with wonderful memories.'
+      }
+    ],
+    inclusions: [
+      'Pick and Drop Transfers from/to Manali',
+      'All meals are included with proper hygiene parameters',
+      'Quad sharing tent accommodations are included',
+      'During the trek, there will be morning and evening tea with a small refreshment',
+      'All tolls and forest fees',
+      'Trekking gears (tents, sleeping bags, ropes, gaiters, crampons etc.)',
+      'First aid medical kit',
+      'Professional trek leader and support staff',
+      'Safety equipment and communication device'
+    ],
+    exclusions: [
+      'Anything that has not been covered in the inclusions mentioned above',
+      'Porters or mules to carry your luggage. The cost per bag (10/12 kg) is ₹300-500 per day',
+      'Any kind of personal expenses',
+      'Any kind of personal medication',
+      'Transportation to and from Manali',
+      'Personal trekking gear and equipment',
+      'Any additional expenses due to weather'
+    ],
+    thingsToCarry: [
+      { category: 'Clothing', items: '2–3 quick-dry t-shirts & trekking pants, Fleece jacket & padded/down jacket, Thermal innerwear (top & bottom), Woolen socks, warm cap & gloves, Raincoat or poncho for unexpected weather.' },
+      { category: 'Footwear', items: 'Trekking shoes with good grip & ankle support, Lightweight slippers/sandals for campsite use.' },
+      { category: 'Trek Essentials', items: 'UV-protected sunglasses, Torch/headlamp with extra batteries, Trekking pole, 2L water bottles or hydration pack, Sunscreen, lip balm & moisturizer.' },
+      { category: 'Personal Care', items: 'Wet wipes, sanitizer & basic toiletries, Toilet paper & personal hygiene items.' },
+      { category: 'Medical & Snacks', items: 'Personal medicines & basic first-aid kit, Energy bars, chocolates & dry fruits.' },
+      { category: 'Documents', items: 'Government-issued ID proof (Mandatory).' }
+    ],
+    whyChoose: [
+      { title: 'No Variable Pricing', desc: 'A fair price that is not variable. Fixed price assurance saves you from the unnecessary loop of negotiations—you get the best deal upfront, right away.' },
+      { title: 'Customer First Policy', desc: 'Your satisfaction is our most priority. We stick to our promise, and we will deliver each and every thing that we promise.' },
+      { title: 'Reliable Guides & Captains', desc: 'Our trips and experienced guides and reliable and professional drivers.' },
+      { title: 'Meals Covered Fully', desc: 'Breakfast and dinner included in package that makes sure you that your overall trip expense is low.' },
+      { title: 'No Hidden Fees', desc: 'There are no hidden charges.' }
+    ],
+    termsAndConditions: [
+      'Booking & Payment | Booking will be confirmed only after receiving the required advance payment.',
+      'Booking & Payment | Full payment must be completed before trip departure unless otherwise agreed.',
+      'Booking & Payment | Package prices may vary during peak season, long weekends, and festivals.',
+      'Accommodation | Accommodation will be provided on quad sharing basis in premium tents.',
+      'Accommodation | Early check-in and late check-out are subject to hotel availability and may incur additional charges.',
+      'Accommodation | Room heaters, extra bedding, and other hotel services may be chargeable.',
+      'Transportation | Transportation will be provided strictly as per the itinerary.',
+      'Transportation | Additional sightseeing, route changes, or extra vehicle usage will be chargeable.',
+      'Transportation | Air conditioning may be switched off in hilly areas for safety and vehicle performance.',
+      'Itinerary & Timings | The itinerary may change due to weather conditions, traffic, roadblocks, or local authority restrictions.',
+      'Itinerary & Timings | Departure and arrival timings are approximate and may vary.',
+      'Itinerary & Timings | Bonfire, music nights, snow activities, and other experiences are subject to weather and local permissions.',
+      'Meals | Meals will be served as per the fixed menu of the hotel/campsite. Special meal requests are not guaranteed unless informed in advance.',
+      'Personal Belongings | Travelers are responsible for their personal belongings. Travelons will not be responsible for loss, theft, or damage of luggage or valuables.',
+      'Health & Safety | Guests must inform the company about any medical conditions before the trip. Medical emergencies and expenses will be borne by the traveler.',
+      'Adventure Activities | Adventure activities are subject to weather conditions and operational availability. Participation in adventure activities is at the traveler’s own risk. No refund will be provided for skipped or unutilized activities.',
+      'Cancellation Policy | Cancellation charges will apply as per company policy. No refund will be provided for last-minute cancellations, no-shows, or unused services.',
+      'Liability Limitations | Travelons shall not be held responsible for delays or disruptions caused by roadblocks or landslides, weather conditions, vehicle breakdowns, or political disturbances or local issues. Any additional expenses arising due to such situations will be borne by the traveler.',
+      'Conduct & Behavior | Misbehavior with staff, drivers, guides, or fellow travelers will not be tolerated. Any damage caused to hotel or vehicle property will be chargeable to the traveler.',
+      'Photography & Media | Photos/videos captured during the trip may be used by Travelons for promotional purposes unless the traveler requests otherwise.'
+    ],
+    safetyLogistics: 'Our treks operate with double-certified mountaineering guides, high-altitude oxygen medical backup, premium high-mountain tents, ropes, and communication trackers.'
+  },
+  {
     id: 'p4',
     name: 'Kasol Kheerganga Trekking Package',
     duration: '4 Nights / 5 Days',
     badge: 'Hot Springs & Camping',
     priceText: 'Starting from ₹5,999/- PP',
     basePrice: 5999,
+    difficulty: 'Moderate',
     detailedPrices: {
       quad: '₹5,999/- PP',
       triple: '₹6,499/- PP',
@@ -331,6 +434,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
     badge: 'Solo-Female Safe (40:60 Ratio)',
     priceText: 'Starting from ₹6,499/- PP',
     basePrice: 6499,
+    difficulty: 'Easy to Moderate',
     detailedPrices: {
       quad: '₹6,499/- PP',
       triple: '₹6,999/- PP',
@@ -438,7 +542,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
     imageUrl: 'https://i.imgur.com/98avYXQ.jpeg',
     category: 'himachal',
     tagline: 'White-out landscapes, frozen rivers, high passes, and ancient monasteries at -15°C.',
-    description: 'An ultimate winter adrenaline crossing. Journey deep into the frozen Spiti Valley, cross high frozen suspension bridges, admire towering icy rivers, and witness standard old Buddhist temples. Assembly details: Delhi ISBT Kashmiri Gate between 08:00 PM to 09:00 PM, or Chandigarh Sector 43 HP Petrol Pump between 01:00 AM to 02:00 AM.',
+    description: 'An ultimate winter adrenaline crossing. Journey deep into the frozen Spiti Valley, cross high frozen suspension bridges, admire towing icy rivers, and witness standard old Buddhist temples. Assembly details: Delhi ISBT Kashmiri Gate between 08:00 PM to 09:00 PM, or Chandigarh Sector 43 HP Petrol Pump between 01:00 AM to 02:00 AM.',
     tokenAmount: 6000,
     itinerary: [
       {
@@ -600,6 +704,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
     badge: 'World\'s Highest Shiva Temple',
     priceText: 'Starting from ₹5,999/- PP',
     basePrice: 5999,
+    difficulty: 'Moderate',
     detailedPrices: {
       quad: '₹5,999/- PP',
       triple: '₹6,499/- PP',
@@ -753,6 +858,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
     badge: 'High-Altitude Alpine Adventure',
     priceText: 'Starting from ₹5,999/- PP',
     basePrice: 5999,
+    difficulty: 'Challenging',
     detailedPrices: {
       quad: '₹5,999/- PP'
     },
@@ -954,7 +1060,7 @@ export const TOUR_PACKAGES: TourPackage[] = [
       'Taxes: Driver night allowances, state highway tolls, and all parking fees covered'
     ],
     exclusions: [
-      'Personal lunches, refreshments, or mid-day highway meals',
+      'Personal expenses, refreshments, or mid-day highway meals',
       'Adventure activity charges (Rafting, Bungee, Zipline, etc.)',
       'Entry tickets for monuments or specific ashram inner passes',
       'Personal expenses (Tips, laundry, shopping, or phone bills)',
@@ -1193,6 +1299,6 @@ export const CORE_POLICIES = [
   },
   {
     title: 'Community Guidelines',
-    desc: 'We are committed to curating safe, healthy, and respectful co-travelling environments. Consumption of alcohol and smoking inside transport coaches or during common trek walking hours is strictly prohibited and carries legal penalties in eco-zones. Verified biometric and government-issued ID checks are mandatory for all participants at registration. Any misconduct, harassments, or non-cooperation with the Trip Captain will result in immediate onboard expulsion without any refund.'
+    desc: 'We are committed to curating safe, healthy, and respectful co-travelling environments. Consumption of alcohol and smoking inside transport coaches or during common trek walking hours is strictly prohibited and carries legal penalties in eco-zones. Verified government-issued ID checks are mandatory for all participants at registration. Any misconduct, harassments, or non-cooperation with the Trip Captain will result in immediate onboard expulsion without any refund.'
   }
 ];
